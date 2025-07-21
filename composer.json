@@ -1,0 +1,20 @@
+{
+    "name": "jewelmm9/icon-starter",
+    "description": "Starter plugin for elementor widget",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Jewel Miah",
+            "email": "jewelmm9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "icon\\starter\\":"includes/"
+        },
+        "files": []
+    }
+}
