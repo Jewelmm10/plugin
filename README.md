@@ -25,4 +25,4 @@ A lightweight Elementor-based plugin that enables developers to build **custom h
 
 ```bash
 cd wp-content/plugins/
-git clone https://github.com/your-username/elementor-header-footer-builder.git
+git clone https://github.com/Jewelmm10/plugin.git

@@ -7,7 +7,7 @@ class Menu {
     }
 
     public function add_menu() {
-        add_menu_page( __( 'Icon Starter', 'iconStarter' ), __( 'Icon Starter', 'iconStarter' ), 'manage_options', 'icon-starter', [ $this, 'callback_function' ], 'dashicons-welcome-learn-more' );
+        add_menu_page( __( 'Header & Footer', 'iconStarter' ), __( 'Header & Footer', 'iconStarter' ), 'manage_options', 'ed', [ $this, 'callback_function' ], 'dashicons-welcome-learn-more', 3 );
     }
     public function callback_function() {
         echo '<h1>' . esc_html__( 'Welcome to Icon Starter', 'iconStarter' ) . '</h1>';

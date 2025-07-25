@@ -77,7 +77,11 @@ final class Icon_Starter {
      * This method is called when the plugin is loaded.
      */
     public function init_plugin() {
-        new icon\starter\Admin\Menu();
+        
+        if ( is_admin() ) {
+            new icon\starter\Admin\Menu();
+            new icon\starter\HeaderFooter\PostType();
+        }
     }
 
     /**
